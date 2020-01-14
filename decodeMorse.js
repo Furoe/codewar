@@ -24,11 +24,9 @@ decodeMorse = function(morseCode){
   			}
   		}else{
   			decodeStr += MORSE_CODE[strIndex];
-  			console.log(decodeStr,strIndex);
   			strIndex = '';
   		}
   	}
   }
-  //console.log(decodeStr + '1111');
   return decodeStr;
 }
