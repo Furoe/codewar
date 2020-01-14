@@ -5,3 +5,7 @@ function findShort(s){
   arr.map(x => minLen = Math.min(x.length, minLen));
   return minLen;
 }
+
+function findShortBest(s){
+	return Math.min.apply(null, s.split(' ').map(w => w.length));
+}
