@@ -10,3 +10,5 @@
 ##### Number of trailing zeros of N!
 * solution: Every zero in the trail has a five, so find out one number can be devided by how many fives.
 * Recrusion is a good way.
+##### Sum of Numbers 0-N
+* [solution](https://www.codewars.com/kata/56e9e4f516bcaa8d4f001763/solutions/javascript)
